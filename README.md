@@ -1,2 +1,2 @@
-# misc-scripts
-Miscellaneous scripts for ASUSWRT
+# scripts
+ASUSWRT scripts
