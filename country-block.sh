@@ -19,7 +19,7 @@ BLOCKED_COUNTRY_LIST="ar au br cn de fr jp kp kr pk ru sa sc tr tw ua vn"
 IPTABLES_RULE_TARGET=DROP # [DROP|REJECT]
 
 # Preparing folder to cache downloaded files
-IPSET_LISTS_DIR=/jffs/ipset_lists
+IPSET_LISTS_DIR=/jffs/lists
 [ -d "$IPSET_LISTS_DIR" ] || mkdir -p $IPSET_LISTS_DIR
 
 # Different routers got different iptables and ipset syntax
